@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+#navname {
+    background-color: #4aaaa5;
+    color: #eeeeee;
+    float:left; 
+    padding: 30px;
+    /* margin-left: 50px; */
+    /* font-size: 24px; */
+    height: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+body {
+    background-color: #999 ; 
+    width: 960px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+}
+
+.topnav {
+    background-color: #fff;
+    border-style: solid;
+    border-width: 0 0 2px 0;
+    border-color: #cccccc;
+    /* float: left; */
+    /* width: 100%; */
+    width: 960px;
+    height: 96px;
+    /* height: auto; */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.navbuttons {
+    border-right: solid 1px #bbb;
+    padding-left: 15px;
+    color: #777;
+}
+
+.navbuttons:last-of-type {
+    border-right: none;
+    }
+
+.topnav-right {
+    /* color: #777; */
+    float: right;
+    /* padding-left: 20px; */
+    padding: 15px;
+    /* font-size: 14px; */
+    /* padding: 15px 10px 25px 10px; */
+}
+
+.topnav-right a {
+    padding-right: 15px;
+}
+
+.wrapper {
+    clear: both;
+    width: 960px;
+    /* height: auto; */
+    background-color: #fff;
+    /* margin: auto; */
+    /* /* margin-left: 50; */
+    /* margin-right: 0;
+    margin-left: 0; */
+    overflow: auto;
+    padding: 5px 20px;
+    margin-top: 115px;
+    border-color: #ddd;
+    border-style: solid;
+    border-width: 1px;
+    position: absolute;
+    left: 0;
+}
+
+.greenline {
+    background-color: #4aaaa5;
+    height: 5px;
+    width; full;
+}
+
+p {
+    color: #777;
+    line-height: 2;
+    margin-left: 10px;
+}
+
+img {
+    float: left;
+    margin-right: 15px;
+    margin-left: 10px;
+    width: 150px;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background: #666;
+}
+
+h1 {
+    color: #4aaaa5;
+    margin-left: 10px;
+    /* padding: 20px; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+hr {
+    margin-left: 10px;
+    margin-right: 10px;    
+
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 12px 0;
+    
+}
+
+#message {
+    height: 200px;
+    margin-bottom: 20px
+}
+
+form {
+    margin-left: 10px;
+    color: #777;
+
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
