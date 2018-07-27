@@ -7,14 +7,18 @@
 
 #navname {
     background-color: #4aaaa5;
-    color: #eeeeee;
     float:left; 
-    padding: 30px;
-    height: auto;
+    padding: 10px;
+    height: 96px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: absolute;
     top: 0;
     left: 0;
+}
+
+#navname h1 {
+    color: #eeeeee;
+
 }
 
 .topnav {
@@ -55,6 +59,8 @@ body {
     width: 960px;
     font-family: Arial, Helvetica, sans-serif;
     color: #777;
+    background-image: url('../images/full-bloom.png');
+    /* background-repeat: repeat-x;  */
 }
 
 .wrapper {
@@ -124,7 +130,14 @@ input[type=text] {
 
 #message {
     height: 200px;
-    margin-bottom: 20px
+    border: solid 1px #ccc;
+    float: left;
+    margin-top: 10px;
+    width: 909px;
+    margin-bottom: 50px;
+    color: #eeeeee;
+    overflow: auto;
+
 }
 
 form {
@@ -132,7 +145,16 @@ form {
     color: #777;
 }
 
+#name {
+    border: solid 1px #ccc;
+}
+
+#email {
+    border: solid 1px #ccc;
+}
+
 input[type=submit] {
+    clear: both;
     background-color: #4aaaa5;
     color: white;
     padding: 12px 30px;
@@ -141,6 +163,16 @@ input[type=submit] {
     margin-bottom: 50px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
+}
+
+.container {
+    left: 0;
+    height: 500px;
+}
+
+::placeholder {
+    color: #888;
+    font-size: 12px;
 }
 
 /* Portfolio Page */
